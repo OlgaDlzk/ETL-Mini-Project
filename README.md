@@ -4,3 +4,11 @@ For the ETL mini project, we practiced building an ETL pipeline using Python, Pa
 
 
 ![etl-process-explained-diagram](https://user-images.githubusercontent.com/74025870/224079318-e5426e95-58ed-4234-b9f2-de58fabf4f2a.png)
+
+
+## The mini project is divided into the following subsections:
+
+    Create the Category and Subcategory DataFrames
+    Create the Campaign DataFrame
+    Create the Contacts DataFrame
+    Create the Crowdfunding Database
