@@ -11,7 +11,7 @@ CREATE TABLE campaign (
 	country VARCHAR(20) NOT NULL
 	currency VARCHAR(10) NOT NULL
 	launch_date VARCHAR(50) NOT NULL
-	end_date DATE NOT NULL
+	end_date VARCHAR(50) NOT NULL
 	category_id DATE NOT NULL
 	FOREIGN KEY (category_id) REFERENCES category(category_id)
 	subcategory_id VARCHAR(10) NOT NULL
