@@ -20,12 +20,12 @@ CREATE TABLE campaign (
 
 CREATE TABLE category (
 	category_id VARCHAR(10) PRIMARY KEY NOT NULL
-	category_name VARCHAR(50) NOT NULL
+	category VARCHAR(50) NOT NULL
 ) 
 
 CREATE TABLE subcategory(
 	subcategory_id VARCHAR(10) PRIMARY KEY NOT NULL
-	subcategory_name VARCHAR(50) NOT NULL
+	subcategory VARCHAR(50) NOT NULL
 )
 
 CREATE TABLE contacts(
